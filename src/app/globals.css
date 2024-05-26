@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+
+body {
+  color: black;
+  background-color : white;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+#beresin-sidebar  ul  li:hover,
+#beresin-sidebar  ul  li.active {
+  background-color: white;
+  color: black;
+}
+
+.bg-primary{
+  background-color : #708CD5;
+}
+
+.btn-primary{
+  background-color : #708CD5;
+  color : white;
+  border : none;
+}
+
+.btn-primary:hover{
+  background-color : #5A70AA;
+}
+
+.link:hover{
+  cursor : pointer;
+}
+
+.text-primary{
+  color: #708CD5;
+}
+
+
+.bg-profile{
+  background-color: #F4F2FF;
+}
+
+@media screen and (max-width: 1120px) {
+  .validasi-content {
+    flex-direction: column;
+  }
+  .form-content{
+    width: 100%;
+    padding-right: 0;
+  }
+  .image-content{
+    width: 100%;
+  }
+  .container {
+    padding: 3rem 2rem;
+  }
+  
+  .profile { 
+    width : 100%;
+  }
+
+  .card-total{
+    width: 100%;
+    margin-left : 0;
+    margin-top: 0.5rem;
+  }
+
+  .card-content{
+    justify-content: normal;
+    flex-direction: column;
+  }
+}
+
+
+
